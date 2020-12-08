@@ -3,28 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create A Dynamic Clock</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c91808f2e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rock Paper and Scissor game</title>
   </head>
   <body>
-    <div class="clock">
-      <div class="hand hour"></div>
-      <div class="hand min"></div>
-      <div class="hand sec"></div>
-      <div class="center"></div>
-      <div class="number number1">1</div>
-      <div class="number number2">2</div>
-      <div class="number number3">3</div>
-      <div class="number number4">4</div>
-      <div class="number number5">5</div>
-      <div class="number number6">6</div>
-      <div class="number number7">7</div>
-      <div class="number number8">8</div>
-      <div class="number number9">9</div>
-      <div class="number number10">10</div>
-      <div class="number number11">11</div>
-      <div class="number number12">12</div>
+    <div class="container">
+      <h1>Rock Paper and Scissor</h1>
+      <div class="user">
+        <p>You-</p>
+        <span class="user-count">res </span>
+        <p class="input-result">--Start</p>
+      </div>
+      <div class="icon user-icon">
+        <i class="far fa-hand-rock" data-set="Rock"></i>
+        <i class="far fa-hand-paper" data-set="Paper"></i>
+        <i class="far fa-hand-scissors" data-set="Scissor"></i>
+      </div>
+      <div class="computer">
+        <p>Computer-</p>
+        <span class="computer-count">res </span>
+        <p class="output-result">--Result</p>
+      </div>
+      <div class="icon computer-icon">
+        <i class="far fa-hand-rock" data-set="Rock"></i>
+        <i class="far fa-hand-paper" data-set="Paper"></i>
+        <i class="far fa-hand-scissors" data-set="Scissor"></i>
+      </div>
+      <button>Reset</button>
+      <h2>Test</h2>
     </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
